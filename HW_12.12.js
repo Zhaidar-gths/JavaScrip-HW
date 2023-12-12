@@ -8,21 +8,22 @@ let favoriteSong='Stay'
 let favoriteMovie='Приключения Паддингтона'
 let favoriteAnimal='Мысық'
 let story=`Менің атым ${name} .Менің жақсы көретін түсім ${favoriteColor}. Мен ${favoriteSong}деген музыканы жақсы көремін. Маған көптеген филмдар ұнайды соның ішінде ${favoriteMovie} жақсы көремін. Сонымен қатар маған жануарлардан  ${favoriteAnimal} ұнайды. `
-console.log=(story)
+console.log(story)
 
 let hasCoffee = true
 if (hasCoffee) {
-    console.log("I have coffee.");
-} else {
-    console.log("No, I dont have a coffe today ");
+    console.log(`i have a coffe`)
+} 
+else {
+    console.log(`No, I dont have a coffe today `)
 }
 
 // Task2
 let isWeekend = false
 if (isWeekend) {
-  console.log("Бүгін демалыс!");
+  console.log(`Бүгін демалыс!`)
 } else {
-  console.log("Бүгін демалыс емес!");
+  console.log(`Бүгін демалыс емес!`)
 }
 
 
