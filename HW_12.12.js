@@ -7,8 +7,8 @@ let favoriteColor='Розовый'
 let favoriteSong='Stay'
 let favoriteMovie='Приключения Паддингтона'
 let favoriteAnimal='Мысық'
-console.log(`Менің атым ${name} .Менің жақсы көретін түсім ${favoriteColor}. Мен ${favoriteSong}деген музыканы жақсы көремін. Маған көптеген филмдар ұнайды соның ішінде ${favoriteMovie}
-conso жақсы көремін. Сонымен қатар маған жануарлардан  ${favoriteAnimal} ұнайды. `)
+let story=`Менің атым ${name} .Менің жақсы көретін түсім ${favoriteColor}. Мен ${favoriteSong}деген музыканы жақсы көремін. Маған көптеген филмдар ұнайды соның ішінде ${favoriteMovie} жақсы көремін. Сонымен қатар маған жануарлардан  ${favoriteAnimal} ұнайды. `
+console.log=(story)
 
 let hasCoffee = true
 if (hasCoffee) {
